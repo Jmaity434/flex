@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>flex — you built it. now flex.</title>
+  <meta name="description" content="Turn any project or website into a short, polished launch video with one command. Stack-agnostic agent skill." />
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --fg: #f5f5f5;
+      --muted: #a3a3a3;
+      --accent: #d4af37;
+      --card: #141414;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.5;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -0.03em; margin: 0 0 8px; }
+    .tag { color: var(--accent); font-weight: 600; margin-bottom: 24px; }
+    p.lead { color: var(--muted); font-size: 1.125rem; max-width: 36rem; }
+    pre, code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.9rem;
+    }
+    pre {
+      background: var(--card);
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 16px 18px;
+      overflow-x: auto;
+    }
+    .grid { display: grid; gap: 16px; margin-top: 40px; }
+    @media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .card {
+      background: var(--card);
+      border: 1px solid #222;
+      border-radius: 14px;
+      padding: 18px;
+    }
+    .card h3 { margin: 0 0 8px; font-size: 1rem; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    a { color: var(--accent); }
+    footer { margin-top: 48px; color: var(--muted); font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="tag">/flex</p>
+    <h1>You built it.<br />Now flex.</h1>
+    <p class="lead">
+      An agent skill that turns any project or website into a short, polished launch video —
+      music, motion, and share copy included. Stack-agnostic. One command.
+    </p>
+
+    <h2 style="margin-top:40px;font-size:1.1rem;">Install</h2>
+    <pre><code>npx skills add https://github.com/Jmaity434/flex --skill flex</code></pre>
+
+    <p style="color:var(--muted);font-size:0.95rem;">Claude Code:</p>
+    <pre><code>/plugin marketplace add Jmaity434/flex
+/plugin install flex@flex</code></pre>
+
+    <h2 style="margin-top:40px;font-size:1.1rem;">Use</h2>
+    <pre><code>let's /flex
+/flex --tone polished --format vertical
+/flex --voice
+/flex --formats landscape,vertical
+/flex --ab default,yc-parody
+/flex doctor</code></pre>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Stack-agnostic</h3>
+        <p>Works with HTML, React, Next.js, Vue, Svelte, or whatever the project actually uses. No extra junk files.</p>
+      </div>
+      <div class="card">
+        <h3>Deep website scan</h3>
+        <p>Renders live pages, dismisses overlays, scrolls section by section, extracts real UI and brand.</p>
+      </div>
+      <div class="card">
+        <h3>Multi-format & A/B</h3>
+        <p>Landscape, vertical, square. Compare tones. Multi-platform share copy ready to post.</p>
+      </div>
+      <div class="card">
+        <h3>Every major agent</h3>
+        <p>Claude Code, Codex, Antigravity, opencode, Cursor, and more.</p>
+      </div>
+    </div>
+
+    <h2 style="margin-top:40px;font-size:1.1rem;">Examples</h2>
+    <p style="color:var(--muted);">Demo videos live in <code>examples/</code>. Add your renders there and link them here.</p>
+
+    <footer>
+      <p>MIT · <a href="https://github.com/Jmaity434/flex">GitHub</a> · Browse on skills registries that support GitHub skill installs</p>
+    </footer>
+  </main>
+</body>
+</html>
