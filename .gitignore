@@ -1,0 +1,7 @@
+flex-output/
+flex-output-*/
+.DS_Store
+node_modules/
+*.log
+.env
+.env.*
