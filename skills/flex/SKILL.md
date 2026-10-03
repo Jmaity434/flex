@@ -1,6 +1,6 @@
 ---
 name: flex
-description: Turn the current project or a website into a short, polished, shareable launch video. Use when someone says "/flex", "let's flex", "make a launch video", "turn this into a video", or wants to show off what they built. Stack-agnostic. Supports voice language auto-detect, multi-format, batch, brand kit, A/B tones, and post-render hooks.
+description: AI SaaS launch video generator and product demo video skill. Turn a SaaS product, startup website, or app into a short polished launch video with one command. Use for "/flex", "make a launch video", "SaaS launch video", "product demo video", "website to video", or sharing what you built. Stack-agnostic. Claude Code, Codex, Cursor. Voice language auto-detect, multi-format, batch, brand kit, A/B tones, post-hooks.
 ---
 
 # /flex
