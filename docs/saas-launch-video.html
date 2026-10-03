@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to Create a SaaS Launch Video with AI (2026 Guide) | flex</title>
+  <meta name="description" content="Step-by-step guide to creating a SaaS product launch video with AI agents. Generate product demo videos from your website or code using the free open-source flex skill." />
+  <meta name="keywords" content="how to create SaaS launch video, SaaS product video AI, product launch video generator, AI marketing video SaaS, website to product demo video" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://jmaity434.github.io/flex/saas-launch-video.html" />
+  <meta property="og:title" content="How to Create a SaaS Launch Video with AI | flex" />
+  <meta property="og:description" content="Practical guide: turn your SaaS website or codebase into a short launch video with one agent command." />
+  <meta property="og:url" content="https://jmaity434.github.io/flex/saas-launch-video.html" />
+  <meta property="og:type" content="article" />
+  <style>
+    :root { --bg:#0a0a0a; --fg:#f5f5f5; --muted:#a3a3a3; --accent:#d4af37; --card:#141414; }
+    body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--fg); line-height:1.65; }
+    main { max-width:720px; margin:0 auto; padding:48px 24px 80px; }
+    h1 { font-size:clamp(1.6rem,4vw,2.4rem); letter-spacing:-0.03em; line-height:1.2; }
+    h2 { margin-top:2.5rem; font-size:1.2rem; }
+    p, li { color:#d4d4d4; }
+    a { color:var(--accent); }
+    pre { background:var(--card); border:1px solid #222; border-radius:12px; padding:16px; overflow-x:auto; font-size:0.875rem; }
+    .muted { color:var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="muted"><a href="index.html">← flex home</a></p>
+    <h1>How to create a SaaS launch video with AI (practical guide)</h1>
+    <p class="muted">Updated for 2026 · Open-source tool: <a href="https://github.com/Jmaity434/flex">flex</a></p>
+
+    <p>
+      A strong <strong>SaaS launch video</strong> shows what the product does in under 30 seconds, uses real UI,
+      and is ready to post on Product Hunt, LinkedIn, X, and Reels. Hiring an editor is slow.
+      With an <strong>AI agent skill</strong> like <strong>flex</strong>, you can generate a
+      <strong>product launch video</strong> from your website or codebase in one command.
+    </p>
+
+    <h2>1. What makes a good SaaS product launch video</h2>
+    <ul>
+      <li>Length: 15–25 seconds (attention-friendly)</li>
+      <li>Hook in the first 2 seconds</li>
+      <li>Real product UI — not only abstract animations</li>
+      <li>Specific claims from your landing page (no generic “streamline your workflow”)</li>
+      <li>Formats: landscape for LinkedIn/X, vertical for Reels/Shorts</li>
+    </ul>
+
+    <h2>2. Generate a launch video from your SaaS site</h2>
+    <p>Install flex, then from your project folder or with a URL:</p>
+    <pre><code>npx skills add https://github.com/Jmaity434/flex --skill flex
+
+# from your SaaS repo
+let's /flex
+
+# or from a live landing page
+/flex https://your-saas.com --format vertical --tone polished</code></pre>
+    <p>
+      flex <strong>deep-scans</strong> the site (including JavaScript-heavy apps), extracts brand colors, fonts, and copy,
+      and produces <code>flex.mp4</code> plus share captions for social platforms.
+    </p>
+
+    <h2>3. Website-to-video vs code-based product demos</h2>
+    <p>
+      <strong>Website to video:</strong> best when you only have a marketing URL.
+      <strong>Code-based:</strong> best when the agent can read real components and flows for a more accurate
+      <strong>product demo video</strong>.
+      flex supports both and stays <strong>stack-agnostic</strong> (React, Next.js, Vue, Svelte, plain HTML, and more).
+    </p>
+
+    <h2>4. Vertical reels for SaaS marketing</h2>
+    <pre><code>/flex --vertical-first
+/flex --formats landscape,vertical</code></pre>
+    <p>Export both a LinkedIn-friendly landscape clip and a vertical <strong>SaaS marketing video</strong> for Shorts and Reels in one run.</p>
+
+    <h2>5. Free and open source</h2>
+    <p>
+      flex is MIT licensed. Use it for commercial SaaS launches and client work.
+      Source: <a href="https://github.com/Jmaity434/flex">github.com/Jmaity434/flex</a>.
+    </p>
+
+    <p style="margin-top:3rem;"><a href="index.html">Back to flex — AI SaaS launch video generator</a></p>
+  </main>
+</body>
+</html>
