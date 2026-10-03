@@ -132,14 +132,6 @@ Run `/flex doctor` to verify your environment.
 
 ---
 
-## SEO & discovery topics
-
-Suggested GitHub topics (add under repo **About → Topics**):
-
-`saas-launch-video` `product-launch-video` `ai-video-generator` `agent-skills` `claude-code` `claude-skills` `launch-video` `product-demo` `saas-marketing` `startup-video` `website-to-video` `open-source`
-
----
-
 ## License
 
 MIT — free to use for commercial SaaS launches and client work.
