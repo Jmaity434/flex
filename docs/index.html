@@ -3,8 +3,104 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>flex — you built it. now flex.</title>
-  <meta name="description" content="Turn any project or website into a short, polished launch video with one command. Stack-agnostic agent skill." />
+  <title>flex — AI SaaS Launch Video Generator | Product Demo Video from Website</title>
+  <meta name="description" content="Open-source AI agent skill that turns any SaaS product, startup website, or app into a short product launch video. One command. Claude Code, Codex, Cursor. Automated SaaS marketing video with share copy." />
+  <meta name="keywords" content="SaaS launch video, AI launch video generator, product launch video, product demo video AI, website to video, startup promo video, Claude Code skill, agent skill, SaaS marketing video, automated product video, vertical reel SaaS, open source launch video" />
+  <meta name="author" content="Joy Maity" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="canonical" href="https://jmaity434.github.io/flex/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jmaity434.github.io/flex/" />
+  <meta property="og:title" content="flex — AI SaaS Launch Video Generator" />
+  <meta property="og:description" content="Turn any SaaS product or website into a polished launch video with one AI agent command. Stack-agnostic. Open source." />
+  <meta property="og:site_name" content="flex" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="flex — AI SaaS Launch Video Generator" />
+  <meta name="twitter:description" content="One command to generate a SaaS product launch video from your project or website. Claude, Codex, Cursor ready." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "flex",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Cross-platform",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Open-source AI agent skill that generates short SaaS product launch videos from a project or website URL. Works with Claude Code, Codex, Cursor, and other AI coding agents.",
+    "url": "https://github.com/Jmaity434/flex",
+    "author": {
+      "@type": "Person",
+      "name": "Joy Maity",
+      "url": "https://github.com/Jmaity434"
+    },
+    "softwareVersion": "0.1.0",
+    "license": "https://opensource.org/licenses/MIT",
+    "keywords": "SaaS launch video, AI product video, agent skill, Claude Code, product demo video"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "flex — AI SaaS Launch Video Generator",
+    "url": "https://jmaity434.github.io/flex/",
+    "description": "Generate SaaS launch videos and product demo videos with one AI agent command.",
+    "publisher": {
+      "@type": "Person",
+      "name": "Joy Maity"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is an AI SaaS launch video generator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "flex is an open-source AI agent skill that reads your SaaS product or website and generates a short, polished product launch video with music, motion, and social share copy in one command."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can flex create a product demo video from a website URL?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Point /flex at a live URL. It deeply scans the page (including JavaScript-rendered sites), extracts brand, UI, and copy, then builds a launch video."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does flex work with Claude Code and Cursor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. flex is an agent skill for Claude Code, Codex, Cursor, Google Antigravity, opencode, and other agents that support the skills standard."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is flex free for commercial SaaS marketing videos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. flex is MIT licensed and free to use for commercial SaaS launches and client work."
+        }
+      }
+    ]
+  }
+  </script>
+
   <style>
     :root {
       --bg: #0a0a0a;
@@ -19,15 +115,18 @@
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--fg);
-      line-height: 1.5;
+      line-height: 1.6;
     }
-    main { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
-    h1 { font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -0.03em; margin: 0 0 8px; }
-    .tag { color: var(--accent); font-weight: 600; margin-bottom: 24px; }
-    p.lead { color: var(--muted); font-size: 1.125rem; max-width: 36rem; }
+    main { max-width: 820px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: clamp(1.75rem, 4.5vw, 2.75rem); letter-spacing: -0.03em; margin: 0 0 12px; line-height: 1.15; }
+    h2 { font-size: 1.25rem; margin: 48px 0 12px; letter-spacing: -0.02em; }
+    h3 { font-size: 1.05rem; margin: 0 0 8px; }
+    .tag { color: var(--accent); font-weight: 600; margin-bottom: 16px; }
+    p.lead { color: var(--muted); font-size: 1.1rem; max-width: 38rem; }
+    p { color: #d4d4d4; }
     pre, code {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 0.9rem;
+      font-size: 0.875rem;
     }
     pre {
       background: var(--card);
@@ -36,7 +135,7 @@
       padding: 16px 18px;
       overflow-x: auto;
     }
-    .grid { display: grid; gap: 16px; margin-top: 40px; }
+    .grid { display: grid; gap: 16px; margin-top: 24px; }
     @media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
     .card {
       background: var(--card);
@@ -44,60 +143,93 @@
       border-radius: 14px;
       padding: 18px;
     }
-    .card h3 { margin: 0 0 8px; font-size: 1rem; }
     .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
     a { color: var(--accent); }
-    footer { margin-top: 48px; color: var(--muted); font-size: 0.875rem; }
+    ul { color: #d4d4d4; padding-left: 1.25rem; }
+    li { margin-bottom: 6px; }
+    footer { margin-top: 56px; color: var(--muted); font-size: 0.875rem; border-top: 1px solid #222; padding-top: 24px; }
+    nav a { margin-right: 16px; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <main>
-    <p class="tag">/flex</p>
-    <h1>You built it.<br />Now flex.</h1>
+    <nav aria-label="Primary">
+      <a href="https://github.com/Jmaity434/flex">GitHub</a>
+      <a href="#install">Install</a>
+      <a href="#faq">FAQ</a>
+      <a href="saas-launch-video.html">SaaS launch video guide</a>
+    </nav>
+
+    <p class="tag">AI agent skill · Open source</p>
+    <h1>AI SaaS launch video generator — product demo videos from your website or code</h1>
     <p class="lead">
-      An agent skill that turns any project or website into a short, polished launch video —
-      music, motion, and share copy included. Stack-agnostic. One command.
+      <strong>flex</strong> is an open-source AI agent skill that turns any SaaS product, startup landing page, or app into a short, polished
+      <strong>product launch video</strong> — music, motion, and social share copy included. One command. No video editor.
     </p>
 
-    <h2 style="margin-top:40px;font-size:1.1rem;">Install</h2>
+    <h2 id="install">Install the launch video skill</h2>
+    <p>Works with Claude Code, Codex, Cursor, Google Antigravity, opencode, and other AI coding agents.</p>
     <pre><code>npx skills add https://github.com/Jmaity434/flex --skill flex</code></pre>
-
-    <p style="color:var(--muted);font-size:0.95rem;">Claude Code:</p>
+    <p>Claude Code:</p>
     <pre><code>/plugin marketplace add Jmaity434/flex
 /plugin install flex@flex</code></pre>
 
-    <h2 style="margin-top:40px;font-size:1.1rem;">Use</h2>
+    <h2>Generate a SaaS product launch video</h2>
     <pre><code>let's /flex
 /flex --tone polished --format vertical
 /flex --voice
-/flex --formats landscape,vertical
-/flex --ab default,yc-parody
+/flex https://your-saas-site.com
 /flex doctor</code></pre>
+    <p>Output: a ready-to-share <strong>SaaS marketing video</strong> (<code>flex.mp4</code>), poster frame, and captions for X, LinkedIn, and Instagram.</p>
 
+    <h2>Why teams use flex for product videos</h2>
     <div class="grid">
       <div class="card">
+        <h3>Website to launch video</h3>
+        <p>Deep-scans live SaaS landing pages (including JS apps), extracts UI, brand colors, and copy — then builds the video.</p>
+      </div>
+      <div class="card">
+        <h3>Built for SaaS marketing</h3>
+        <p>15–25s product launch clips, vertical reels for Shorts/Reels, multi-platform share copy, optional voiceover.</p>
+      </div>
+      <div class="card">
         <h3>Stack-agnostic</h3>
-        <p>Works with HTML, React, Next.js, Vue, Svelte, or whatever the project actually uses. No extra junk files.</p>
+        <p>React, Next.js, Vue, Svelte, plain HTML — whatever your product is built with. No forced framework.</p>
       </div>
       <div class="card">
-        <h3>Deep website scan</h3>
-        <p>Renders live pages, dismisses overlays, scrolls section by section, extracts real UI and brand.</p>
-      </div>
-      <div class="card">
-        <h3>Multi-format & A/B</h3>
-        <p>Landscape, vertical, square. Compare tones. Multi-platform share copy ready to post.</p>
-      </div>
-      <div class="card">
-        <h3>Every major agent</h3>
-        <p>Claude Code, Codex, Antigravity, opencode, Cursor, and more.</p>
+        <h3>Agent-native workflow</h3>
+        <p>Same terminal as your coding agent. After you ship the feature, run /flex and post the launch video.</p>
       </div>
     </div>
 
-    <h2 style="margin-top:40px;font-size:1.1rem;">Examples</h2>
-    <p style="color:var(--muted);">Demo videos live in <code>examples/</code>. Add your renders there and link them here.</p>
+    <h2>Use cases</h2>
+    <ul>
+      <li><strong>SaaS product launch video</strong> for Product Hunt, LinkedIn, and X</li>
+      <li><strong>AI product demo video</strong> from your actual UI and claims</li>
+      <li><strong>Startup promo video</strong> without hiring an editor</li>
+      <li><strong>Website to video</strong> for landing page A/B creative</li>
+      <li>Batch videos for multiple client SaaS sites</li>
+    </ul>
+
+    <h2 id="faq">FAQ — AI SaaS launch videos</h2>
+    <h3>What is an AI SaaS launch video generator?</h3>
+    <p>flex is an open-source AI agent skill that reads your SaaS product or website and generates a short, polished product launch video with music, motion, and social share copy in one command.</p>
+    <h3>Can flex create a product demo video from a website URL?</h3>
+    <p>Yes. Point <code>/flex</code> at a live URL. It deeply scans the page (including JavaScript-rendered sites), extracts brand, UI, and copy, then builds a launch video.</p>
+    <h3>Does flex work with Claude Code and Cursor?</h3>
+    <p>Yes. flex works with Claude Code, Codex, Cursor, Google Antigravity, opencode, and other agents that support the Agent Skills standard.</p>
+    <h3>Is flex free for commercial SaaS marketing videos?</h3>
+    <p>Yes. MIT licensed — free for commercial SaaS launches and client work.</p>
+
+    <h2>Open source on GitHub</h2>
+    <p>
+      Source, issues, and stars:
+      <a href="https://github.com/Jmaity434/flex">github.com/Jmaity434/flex</a>
+    </p>
 
     <footer>
-      <p>MIT · <a href="https://github.com/Jmaity434/flex">GitHub</a> · Browse on skills registries that support GitHub skill installs</p>
+      <p>flex — AI SaaS launch video generator · Product demo video from website or code · MIT License</p>
+      <p><a href="https://github.com/Jmaity434/flex">GitHub repository</a> · <a href="saas-launch-video.html">SaaS launch video guide</a> · <a href="marketplace.md">Install channels</a></p>
     </footer>
   </main>
 </body>
