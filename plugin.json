@@ -1,7 +1,7 @@
 {
   "name": "flex",
   "version": "0.1.0",
-  "description": "You built it. Now flex. Turn any project or website into a short, polished launch video. Stack-agnostic. Works with Claude, Codex, Antigravity, and more.",
+  "description": "AI SaaS launch video generator — turn any product or website into a short product demo / launch video. Agent skill for Claude, Codex, Cursor. Stack-agnostic.",
   "author": {
     "name": "Joy Maity"
   },
